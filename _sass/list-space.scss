@@ -1,0 +1,7 @@
+@mixin list-space($PARAM) {
+  margin-right: $PARAM;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

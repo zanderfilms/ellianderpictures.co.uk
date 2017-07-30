@@ -2,8 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @import 'clearfix';
+@import 'list-space';
 
-$BAR_BORDERS: 2px solid grey;
+$FONT: "Poppins Medium";
+$ORANGE: #D09949;
+$GREY: #B0B3AC;
+$BAR_BORDERS: 1px solid $GREY;
 
 html, body {
   margin: 0;
@@ -13,35 +17,8 @@ html, body {
   background-color: black;
 
   *, a {
-    color: white;
+    color: $GREY;
   }
-
-  header:first-child {
-    a {
-      display: block;
-      float: right;
-      text-decoration: none;
-      text-transform: uppercase;
-      margin-right: 2em;
-
-      &:first-child {
-        float: left;
-      }
-    }
-  }
-
-  main {
-    clear: both;
-  }
-}
-
-footer {
-  bottom: 0;
-  border-top: $BAR_BORDERS;
-}
-
-header {
-  border-bottom: $BAR_BORDERS;
 }
 
 header, footer {
@@ -51,4 +28,62 @@ header, footer {
   position: fixed;
   padding: 2.5em;
   background-color: black;
+  font-family: $FONT;
+  color: $GREY;
+  letter-spacing: 0.8pt;
+
+  nav {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  text-align: right;
+  bottom: 0;
+  border-top: $BAR_BORDERS;
+  font-size: 9pt;
+
+  div {
+    display: inline-block;
+    @include list-space(2em);
+  }
+
+  a {
+    display: block;
+  }
+}
+
+header {
+  border-bottom: $BAR_BORDERS;
+  font-size: 11pt;
+
+  nav {
+    text-align: right;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      @include list-space(2em);
+
+      &:first-child {
+        float: left;
+        color: $ORANGE;
+      }
+
+      &.selected, &:hover {
+        color: $ORANGE;
+
+        &:after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 1em;
+          border-left: $BAR_BORDERS;
+          margin: 1.5em auto -2.5em;
+        }
+      }
+    }
+  }
 }
