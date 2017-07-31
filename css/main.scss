@@ -87,3 +87,16 @@ header {
     }
   }
 }
+
+main {
+  padding: 6em 2em;
+}
+
+.slide {
+  width: 80vw;
+  height: 45vw;
+  background-color: grey;
+  max-width: 800px;
+  max-height: 450px;
+  margin: 4em auto;
+}

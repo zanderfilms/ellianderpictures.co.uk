@@ -1,4 +1,11 @@
 ---
 layout: default
 ---
-Welcome.
+
+<div class="slides">
+  {% for film in site.films %}
+  <div class="slide">
+    {{ film.name }}
+  </div>
+  {% endfor %}
+</div>
