@@ -5,7 +5,8 @@ layout: default
 <div class="slides">
   {% for film in site.films %}
   <div class="slide">
-    {{ film.name }}
+    <video src="films/{{ film.video_url }}" autoplay muted loop></video>
+    <span>{{ film.name }}</span>
   </div>
   {% endfor %}
 </div>
