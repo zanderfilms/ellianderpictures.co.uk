@@ -100,8 +100,14 @@ header {
   }
 }
 
+$SPACE_FORMULA: calc(50vh - 6em - 33.5vmin/1.5);
+
 main {
   padding: 3.5em 2em;
+
+  .slides {
+    padding-bottom: $SPACE_FORMULA;
+  }
 }
 
 .slide {
@@ -110,7 +116,7 @@ main {
   background-color: grey;
   max-width: 800px;
   max-height: 335px;
-  margin: 4em auto;
+  margin: $SPACE_FORMULA auto 4em;
 
   video {
     width: 100%;
