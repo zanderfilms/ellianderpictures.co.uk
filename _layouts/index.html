@@ -13,3 +13,17 @@ layout: default
   </div>
   {% endfor %}
 </div>
+
+<script langage="javascript">
+document.querySelector('main').style['min-height'] = document.querySelector('.slides').clientHeight + 'px';
+document.querySelector('.slides').classList.add('horizontal');
+document.querySelector('.slides').style['width'] = 'calc(' + ({{ site.films.size }}) + ' * 920px)';
+changePosition = function(newLeft) {
+  document.querySelector('.slides').style['left'] = 'calc(' + newLeft + 'px + 50%)';
+}
+window.addEventListener('scroll', function(e) {
+  newLeft = (e.pageY / e.view.scrollMaxY) * -920 * ({{ site.films.size }} - 1);
+  changePosition(newLeft);
+});
+changePosition(0);
+</script>
