@@ -1,5 +1,5 @@
 ---
-name: Jellyrools: The Movie
+name: "Jellyrools: The Movie"
 kind: Feature Film
 year: 2020
 video_url: x.mp4
