@@ -4,7 +4,7 @@
 @import 'clearfix';
 @import 'list-space';
 
-$FONT: "Poppins Medium", "Apple LiGothic", sans-serif;
+$FONT: "Poppins", "Apple LiGothic", sans-serif;
 $ORANGE: #D09949;
 $GREY: #6c6f67;
 $BAR_BORDERS: 1px solid $GREY;
@@ -13,7 +13,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: sans-serif;
+  font-family: $FONT;
+  font-weight: 200;
   background-color: black;
 
   *, a {
@@ -100,9 +101,9 @@ header {
   }
 }
 
-$FILM_TITLE_FONT_HEIGHT: 20pt;
-$FILM_SUBTITLE_FONT_HEIGHT: 12pt;
-$FILM_LINE_EXTRA: 0.5em;
+$FILM_TITLE_FONT_HEIGHT: 15pt;
+$FILM_SUBTITLE_FONT_HEIGHT: 10pt;
+$FILM_LINE_EXTRA: 0.2em;
 $SPACE_FORMULA_BOTTOM: calc(#{$FILM_TITLE_FONT_HEIGHT} + #{$FILM_SUBTITLE_FONT_HEIGHT} + #{$FILM_LINE_EXTRA} + 2em);
 $SPACE_FORMULA: calc(50vh - 9em - 33.5vmin/1.5);
 $HEADER_FOOTER_HEIGHT: 3.5em;
@@ -134,12 +135,13 @@ main {
     font-family: $FONT;
     text-align: center;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 200;
     letter-spacing: 4pt;
   }
 
   h1 {
     font-size: $FILM_TITLE_FONT_HEIGHT;
+    margin-bottom: $FILM_LINE_EXTRA;
 
     @media screen and (max-width: 800px) {
       font-size: calc(1.8vw + 10pt);
