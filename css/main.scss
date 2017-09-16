@@ -29,7 +29,7 @@ header, footer {
   position: fixed;
   padding: 2.5em 2.5em 1em;
   background-color: black;
-  font-family: $FONT;
+  font-weight: 500;
   color: $GREY;
   text-transform: uppercase;
 
@@ -141,7 +141,7 @@ main {
 
   h1 {
     font-size: $FILM_TITLE_FONT_HEIGHT;
-    margin-bottom: $FILM_LINE_EXTRA;
+    margin-bottom: 0;
 
     @media screen and (max-width: 800px) {
       font-size: calc(1.8vw + 10pt);
@@ -158,6 +158,7 @@ main {
 
   h2 {
     font-size: $FILM_SUBTITLE_FONT_HEIGHT;
+    margin-top: 0.5em;
 
     @media screen and (max-width: 800px) {
       font-size: calc(1vw + 5pt);
