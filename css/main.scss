@@ -36,11 +36,11 @@ header, footer {
   a {
     text-decoration: none;
   }
+}
 
-  nav {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+nav, article {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 footer {
