@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="slides">
-  {% for film in site.films %}
+  {% assign films = site.films | sort: 'year' | reverse %}
+  {% for film in films %}
   <div class="slide">
     <video src="films/{{ film.video_url }}" autoplay muted loop></video>
     <a href="{{ film.url }}">
