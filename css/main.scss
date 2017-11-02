@@ -8,6 +8,7 @@ $FONT: "Poppins", "Apple LiGothic", sans-serif;
 $ORANGE: #D09949;
 $GREY: #6c6f67;
 $BAR_BORDERS: 1px solid $GREY;
+$BAR_BOTTOM_SPACE: 13px;
 
 html, body {
   margin: 0;
@@ -27,7 +28,7 @@ header, footer {
   left: 0;
   right: 0;
   position: fixed;
-  padding: 2.5em 2.5em 1em;
+  padding: 2.5em 2.5em $BAR_BOTTOM_SPACE;
   background-color: black;
   font-weight: 500;
   color: $GREY;
@@ -94,7 +95,7 @@ header {
           width: 0;
           height: 0.5em;
           border-left: $BAR_BORDERS;
-          margin: 0.7em auto -1em;
+          margin: 0.7em auto -#{$BAR_BOTTOM_SPACE};
         }
       }
     }
