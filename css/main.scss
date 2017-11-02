@@ -10,6 +10,10 @@ $GREY: #6c6f67;
 $BAR_BORDERS: 1px solid $GREY;
 $BAR_BOTTOM_SPACE: 13px;
 
+html {
+  overflow-y: scroll;
+}
+
 html, body {
   margin: 0;
   padding: 0;
