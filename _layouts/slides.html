@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div class="slides">
-  {% assign films = site.films | sort: 'year' | reverse %}
+  {% assign list = site.collections | where: 'label', page.collection %}
+  {% assign films = list[0]['docs'] | sort: 'year' | reverse %}
   {% for film in films %}
   <div class="slide">
-    <video src="films/{{ film.video_url }}" autoplay muted loop></video>
+    <video src="{{ film.url }}/../{{ film.video_url }}" autoplay muted loop></video>
     <a href="{{ film.url }}">
       <h1>{{ film.name }}</h1>
       <h2>{{ film.kind }}, {{ film.year }}</h2>
@@ -18,12 +19,12 @@ layout: default
 <script langage="javascript">
 document.querySelector('main').style['min-height'] = document.querySelector('.slides').clientHeight + 'px';
 document.querySelector('.slides').classList.add('horizontal');
-document.querySelector('.slides').style['width'] = 'calc(' + ({{ site.films.size }}) + ' * 920px)';
+document.querySelector('.slides').style['width'] = 'calc(' + ({{ films.size }}) + ' * 920px)';
 changePosition = function(newLeft) {
   document.querySelector('.slides').style['left'] = 'calc(' + newLeft + 'px + 50%)';
 }
 window.addEventListener('scroll', function(e) {
-  newLeft = (e.pageY / e.view.scrollMaxY) * -920 * ({{ site.films.size }} - 1);
+  newLeft = (e.pageY / e.view.scrollMaxY) * -920 * ({{ films.size }} - 1);
   changePosition(newLeft);
 });
 changePosition(0);
