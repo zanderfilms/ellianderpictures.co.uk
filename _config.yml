@@ -32,6 +32,8 @@ plugins:
 collections:
   films:
     output: true
+  documentaries:
+    output: true
 
 defaults:
   - scope:
