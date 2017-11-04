@@ -30,8 +30,13 @@ scrollFraction = function() {
       sh = 'scrollHeight';
     return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight);
 }
+getStyle = function(el) {
+  return (typeof getComputedStyle !== 'undefined' ? getComputedStyle(el, null) : el.currentStyle);
+}
 window.addEventListener('scroll', function(e) {
-  newLeft = scrollFraction() * -920 * ({{ films.size }} - 1);
+  var style = getStyle(document.querySelector('.slide'));
+  var slideWidth = (parseFloat(style.width) + parseFloat(style.marginRight) + parseFloat(style.marginLeft));
+  var newLeft = scrollFraction() * -slideWidth * ({{ films.size }} - 1);
   changePosition(newLeft);
 });
 changePosition(0);
