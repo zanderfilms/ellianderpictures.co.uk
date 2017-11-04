@@ -23,8 +23,15 @@ document.querySelector('.slides').style['width'] = 'calc(' + ({{ films.size }}) 
 changePosition = function(newLeft) {
   document.querySelector('.slides').style['left'] = 'calc(' + newLeft + 'px + 50%)';
 }
+scrollFraction = function() {
+  var h = document.documentElement,
+      b = document.body,
+      st = 'scrollTop',
+      sh = 'scrollHeight';
+    return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight);
+}
 window.addEventListener('scroll', function(e) {
-  newLeft = (e.pageY / e.view.scrollMaxY) * -920 * ({{ films.size }} - 1);
+  newLeft = scrollFraction() * -920 * ({{ films.size }} - 1);
   changePosition(newLeft);
 });
 changePosition(0);
