@@ -3,7 +3,7 @@
   <nav>
     {% for name in site.menu %}
     {% assign node = site.pages | where: 'name', name | first %}
-    <a href="{{ node.url }}"{% if page.url == node.url %} class="selected"{% endif %}> {{ node.title }} </a>
+    <a href="{{ node.url | relative_url }}"{% if page.url == node.url %} class="selected"{% endif %}> {{ node.title }} </a>
     {% endfor %}
   </nav>
 </header>
