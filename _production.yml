@@ -1,0 +1,5 @@
+---
+# Here we set the baseurl back to the root.
+# This config file won't be loaded by Github
+# but will be used to build the production version of the site.
+baseurl: '/'

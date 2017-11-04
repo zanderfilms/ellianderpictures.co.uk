@@ -7,8 +7,8 @@ layout: default
   {% assign films = list[0]['docs'] | sort: 'year' | reverse %}
   {% for film in films %}
   <div class="slide">
-    <video src="{{ film.url }}/../{{ film.video_url }}" autoplay muted loop></video>
-    <a href="{{ film.url }}">
+    <video src="{{ film.url | relative_url }}/../{{ film.video_url }}" autoplay muted loop></video>
+    <a href="{{ film.url | relative_url }}">
       <h1>{{ film.name }}</h1>
       <h2>{{ film.kind }}, {{ film.year }}</h2>
     </a>
