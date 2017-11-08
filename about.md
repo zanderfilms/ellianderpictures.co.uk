@@ -2,10 +2,12 @@
 title: about
 layout: just-text
 ---
-# This is a Test:
+ABOUT:
 
-Lorem ipsum dolor sit amet, vix delenit phaedrum invenire an, an eum labitur maluisset neglegentur, cu iriure saperet propriae sea. Ad denique perfecto est, eros copiosae expetendis ei vim, purto decore sit eu. Ad error quidam ancillae his. Viris omnesque repudiare has ad, tota exerci nam ad.
+Elliander Pictures is a UK based production partnership between directing brotehrs, Elliot Weaver (29) & Zander Weaver (26), producing both factual television and narrative dramatic content. Since 2010 the company has produced over 9 hours of factual programming for broadcasters including *Discovery, PBS, Canal+* and *UKTV* and is currently completing post production on the self produced feature film, COSMOS.
+
+The brothers plan to continue producing documentaries but shift their focus to directing feature films, where their passion lies.
 
 <img src= "./elliot_zander.jpg" alt="Elliot & Zander Weaver" style="width: 400px; align: left"/>
 
-Doming interpretaris duo ad, oblique nusquam cotidieque pri eu. Graecis pertinacia at mea, eu vim appetere deserunt. Nam no mutat legendos, an stet erroribus sit. In vocibus insolens oportere sea.
+*Please Note*: This website is currently under development and more information on recent projects can be found on the company's blog <a href= "https://reeldealfilmschool.wordpress.com/projects/">here</a>.
