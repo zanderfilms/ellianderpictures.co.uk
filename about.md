@@ -10,4 +10,4 @@ The brothers plan to continue producing documentaries but shift their focus to d
 
 <img src= "./elliot_zander.jpg" alt="Elliot & Zander Weaver" style="width: 400px; align: left"/>
 
-*Please Note*: This website is currently under development and more information on recent projects can be found on the company's blog <a href= "https://reeldealfilmschool.wordpress.com/projects/">here</a>.
+*Please Note*: This website is currently under development, video content can currently be found on <a href= "https://vimeo.com/ellianderpics">Vimeo</a> and more information on recent projects can be found on the company's blog <a href= "https://reeldealfilmschool.wordpress.com/projects/">here</a>.
