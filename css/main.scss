@@ -7,6 +7,7 @@
 $FONT: "Poppins", "Apple LiGothic", sans-serif;
 $ORANGE: #D09949;
 $GREY: #6c6f67;
+$BRIGHT_GREY: #a3a89c;
 $BAR_BORDERS: 1px solid $GREY;
 $BAR_BOTTOM_SPACE: 13px;
 
@@ -21,8 +22,9 @@ html, body {
   font-family: $FONT;
   font-weight: 200;
   background-color: black;
+  color: $GREY;
 
-  *, a {
+  a {
     color: $GREY;
   }
 }
@@ -46,6 +48,11 @@ header, footer {
 nav, article {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+article {
+  color: $BRIGHT_GREY;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer {
