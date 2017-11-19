@@ -54,6 +54,14 @@ article {
   color: $BRIGHT_GREY;
   font-family: "Open Sans", sans-serif;
   font-size: 10.5pt;
+
+  a {
+    color: $BRIGHT_GREY;
+
+    &:hover {
+    color: $ORANGE;
+    }
+  }
 }
 
 footer {
