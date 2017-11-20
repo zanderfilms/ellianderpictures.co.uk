@@ -4,7 +4,7 @@ layout: just-text
 ---
 # ABOUT
 
-<img src= "./elliot_zander.jpg" alt="Elliot &amp; Zander Weaver" style="width: 400px; float: left"/>
+<img src= "./elliot_zander.jpg" alt="Elliot &amp; Zander Weaver" style="max-width: 400px; float: left"/>
 
 Elliander Pictures is a UK-based production partnership between directing brothers Elliot Weaver (29) and Zander Weaver (26), producing both factual television and narrative dramatic content.
 
