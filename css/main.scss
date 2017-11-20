@@ -10,6 +10,7 @@ $GREY: #6c6f67;
 $BRIGHT_GREY: #a3a89c;
 $BAR_BORDERS: 1px solid $GREY;
 $BAR_BOTTOM_SPACE: 13px;
+$MOBILE: 650px;
 
 html {
   overflow-y: scroll;
@@ -40,6 +41,10 @@ header, footer {
   color: $GREY;
   text-transform: uppercase;
 
+  @media screen and (max-width: $MOBILE) {
+    position: inherit;
+  }
+
   a {
     text-decoration: none;
   }
@@ -57,6 +62,7 @@ article {
 
   img {
     margin: 1em;
+    width: calc(100% - 2em);
   }
 
   a {
@@ -77,7 +83,12 @@ footer {
 
   div {
     display: inline-block;
-    @include list-space(2em);
+    @include list-space(2em, right);
+
+    @media screen and (max-width: 650px) {
+      @include list-space(0, right);
+      @include list-space(2em, bottom);
+    }
   }
 
   a {
@@ -97,7 +108,7 @@ header {
     a {
       display: inline-block;
       text-decoration: none;
-      @include list-space(2em);
+      @include list-space(2em, right);
 
       &:first-child {
         float: left;
@@ -123,6 +134,47 @@ header {
         }
       }
     }
+
+    @media screen and (max-width: $MOBILE) {
+      &:after {
+        content: "\2261";
+        position: relative;
+        top: -0.4em;
+        font-size: 1.8em;
+        cursor: pointer;
+      }
+
+      a {
+        display: none;
+
+        &:first-child {
+          display: inline-block;
+        }
+      }
+
+      &:hover {
+        &:after {
+          content: none;
+        }
+
+        a {
+          display: block;
+          margin-top: 1em;
+          float: none;
+          width: 100%;
+          text-align: left;
+
+          &:after {
+            content: none;
+          }
+
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
   }
 }
 
@@ -140,6 +192,9 @@ main {
     padding-bottom: $SPACE_FORMULA;
   }
 
+  @media screen and (max-width: $MOBILE) {
+    padding-top: 0.5em;
+  }
 }
   .production {
     display: grid;

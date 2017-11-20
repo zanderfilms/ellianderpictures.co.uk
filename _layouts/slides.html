@@ -17,12 +17,17 @@ layout: default
 </div>
 
 <script langage="javascript">
-document.querySelector('main').style['min-height'] = document.querySelector('.slides').clientHeight + 'px';
-document.querySelector('.slides').classList.add('horizontal');
-document.querySelector('.slides').style['width'] = 'calc(' + ({{ films.size }}) + ' * 920px)';
+// Gets the actual style properties of an element
+getStyle = function(el) {
+  return (typeof getComputedStyle !== 'undefined' ? getComputedStyle(el, null) : el.currentStyle);
+}
+
+// Moves the horizontal scroll to the specified pixel position.
 changePosition = function(newLeft) {
   document.querySelector('.slides').style['left'] = 'calc(' + newLeft + 'px + 50%)';
 }
+
+// Returns a value between 0 and 1 representing the current scroll position through the page.
 scrollFraction = function() {
   var h = document.documentElement,
       b = document.body,
@@ -30,14 +35,59 @@ scrollFraction = function() {
       sh = 'scrollHeight';
     return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight);
 }
-getStyle = function(el) {
-  return (typeof getComputedStyle !== 'undefined' ? getComputedStyle(el, null) : el.currentStyle);
-}
-window.addEventListener('scroll', function(e) {
+
+slideWidth = function() {
   var style = getStyle(document.querySelector('.slide'));
-  var slideWidth = (parseFloat(style.width) + parseFloat(style.marginRight) + parseFloat(style.marginLeft));
-  var newLeft = scrollFraction() * -slideWidth * ({{ films.size }} - 1);
+  return (parseFloat(style.width) + parseFloat(style.marginRight) + parseFloat(style.marginLeft));
+}
+
+handleScroll = function(e) {
+  var newLeft = scrollFraction() * -slideWidth() * ({{ films.size }} - 1);
   changePosition(newLeft);
-});
-changePosition(0);
+}
+
+// Sets up the view to use horizontal scrolling
+setHorizontalMode = function() {
+  document.querySelector('main').style['min-height'] = document.querySelector('.slides').clientHeight + 'px';
+  document.querySelector('.slides').classList.add('horizontal');
+  document.querySelector('.slides').style['width'] = 'calc(' + ({{ films.size }}) + ' * ' + slideWidth() + 'px)';
+  window.addEventListener('scroll', handleScroll);
+  changePosition(0);
+}
+
+// Removes horizontal scroll effect from the view
+clearHorizontalMode = function() {
+  document.querySelector('main').style['min-height'] = "";
+  document.querySelector('.slides').classList.remove('horizontal');
+  document.querySelector('.slides').style['width'] = "";
+  document.querySelector('.slides').style['left'] = "";
+  window.removeEventListener('scroll', handleScroll);
+}
+
+var isHorizontalMode = false;
+handleWindowWidth = function() {
+  if (window.innerWidth > 650 && !isHorizontalMode) {
+    console.log("Entering horizontal mode")
+    isHorizontalMode = true;
+    setHorizontalMode();
+  } else if (window.innerWidth <= 650 && isHorizontalMode) {
+    console.log("Leaving horizontal mode")
+    isHorizontalMode = false;
+    clearHorizontalMode();
+  }
+}
+
+var amHandling = false;
+throttleWindowWidth = function() {
+  if (!amHandling) {
+    amHandling = true;
+    setTimeout(function() {
+      amHandling = false;
+      handleWindowWidth();
+    }, 100);
+  }
+}
+
+window.addEventListener('resize', throttleWindowWidth);
+handleWindowWidth();
 </script>
