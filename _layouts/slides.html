@@ -6,11 +6,18 @@ layout: default
   {% assign list = site.collections | where: 'label', page.collection %}
   {% assign films = list[0]['docs'] | sort: 'year' | reverse %}
   {% for film in films %}
-  <div class="slide">
-    <video src="{{ film.url | relative_url }}/../{{ film.video_url }}" autoplay muted loop></video>
-    <a href="{{ film.url | relative_url }}">
-      <h1>{{ film.name }}</h1>
-      <h2>{{ film.kind }}, {{ film.year }}</h2>
+  <div class="slide" vocab="http://schema.org/" typeof="Movie">
+    {% assign urlparts = film.url | relative_url | split: '/' %}
+    {% capture film_base %}{% for part in urlparts %}{% unless forloop.last %}{{ part }}/{% endunless %}{% endfor %}{% endcapture %}
+    <video property="video" typeof="VideoObject" autoplay muted loop>
+      <source property="url" src="{{ film_base }}{{ film.video_url }}">
+    </video>
+    {% if film.poster %}
+      <meta property="image" typeof="URL" content="{{ film_base }}{{ film.poster }}"/>
+    {% endif %}
+    <a property="url" href="{{ film.url | relative_url }}">
+      <h1 property="name">{{ film.name }}</h1>
+      <h2>{{ film.kind }}, <span property="datePublished">{{ film.year }}</span></h2>
     </a>
   </div>
   {% endfor %}
