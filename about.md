@@ -12,4 +12,4 @@ Since 2010 the company has produced over nine hours of factual programming for b
 
 The brothers plan to continue producing documentaries but shift their focus to directing feature films, where their passion lies.
 
-*Please Note*: This website is currently under development. Video content can currently be found on <a href= "https://vimeo.com/ellianderpics">Vimeo</a>. More information on recent projects can be found on the <a href= "https://reeldealfilmschool.wordpress.com/projects/">company's blog</a>.
+*Please Note*: This website is currently under development. Video content can currently be found on <a href= "https://vimeo.com/ellianderpics" target="_blank">Vimeo</a>. More information on recent projects can be found on the <a href= "https://reeldealfilmschool.wordpress.com/projects/" target="_blank">company's blog</a>.
