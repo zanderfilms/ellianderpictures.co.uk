@@ -123,15 +123,15 @@ header {
 
       &.selected, &:hover {
         color: $ORANGE;
+      }
 
-        &:after {
-          content: "";
-          display: block;
-          width: 0;
-          height: 0.5em;
-          border-left: $BAR_BORDERS;
-          margin: 0.7em auto -#{$BAR_BOTTOM_SPACE};
-        }
+      &.selected:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0.5em;
+        border-left: $BAR_BORDERS;
+        margin: 0.7em auto -#{$BAR_BOTTOM_SPACE};
       }
     }
 
