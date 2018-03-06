@@ -15,7 +15,7 @@ layout: default
     {% if film.poster %}
       <meta property="image" typeof="URL" content="{{ film_base }}{{ film.poster }}"/>
     {% endif %}
-    <a property="url" href="{{ film.url | relative_url }}">
+    <a name="{{ film.slug }}" property="url" href="#{{ film.slug }}">
       <h1 property="name">{{ film.name }}</h1>
       <h2>{{ film.kind }}, <span property="datePublished">{{ film.year }}</span></h2>
     </a>
