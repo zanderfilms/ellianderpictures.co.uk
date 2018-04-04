@@ -102,6 +102,18 @@ header {
   font-size: 8pt;
   letter-spacing: 3.5pt;
 
+  a[href='#menu'] {
+    display: none;
+    font-size: 1.8em;
+    text-decoration: none;
+
+    @media screen and (max-width: $MOBILE) {
+      display: block;
+      float: right;
+      margin-top: -0.6em;
+    }
+  }
+
   nav {
     text-align: right;
 
@@ -136,27 +148,19 @@ header {
     }
 
     @media screen and (max-width: $MOBILE) {
-      &:after {
-        content: "\2261";
-        position: relative;
-        top: -0.4em;
-        font-size: 1.8em;
-        cursor: pointer;
-      }
-
       a {
         display: none;
 
         &:first-child {
-          display: inline-block;
+          display: block;
+        }
+
+        &.selected:after {
+          content: none;
         }
       }
 
-      &:hover {
-        &:after {
-          content: none;
-        }
-
+      &:target {
         a {
           display: block;
           margin-top: 1em;
@@ -164,17 +168,16 @@ header {
           width: 100%;
           text-align: left;
 
-          &:after {
-            content: none;
-          }
-
           &:first-child {
             margin-top: 0;
           }
         }
       }
-    }
 
+      &:target + a[href='#menu'] {
+        display: none;
+      }
+    }
   }
 }
 
