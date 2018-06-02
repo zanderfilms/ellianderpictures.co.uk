@@ -1,5 +1,5 @@
 ---
-name: Cosmos
+title: Cosmos
 kind: Feature Film
 year: 2018
 video_url: x.mp4
