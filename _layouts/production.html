@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-<div class="production">
-  <img id="poster" src="./{{ page.poster }}" style="position: fixed;">
-  <img id="poster" src="./{{ page.poster }}" style="opacity: 0;">
-  <div id="description">
-    {{ page.content }}
+<div class="production" vocab="http://schema.org/" typeof="Movie">
+  <h1 property="name">{{ page.title }}</h1>
+  <h2>{{ page.kind }}, <span property="datePublished">{{ page.year }}</span></h2>
+  <nav>
+    {% assign headings = page.content | split: '<h2 id="' %}
+    {% for heading in headings %}
+      {% assign parts = heading | split: "</h2>" | first %}
+      {% assign parts = parts | split: '">' %}
+      {% assign slug = parts | first %}
+      {% assign text = parts | last %}
+      <a href="#{{ slug }}">{{ text }}</a>
+    {% endfor %}
+  </nav>
+  <div id="poster">
+    <img property="image" src="./{{ page.poster }}">
   </div>
+  {{ page.content }}
 </div>
