@@ -4,6 +4,8 @@
 @import 'clearfix';
 @import 'list-space';
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
+
 $FONT: "Poppins", "Apple LiGothic", sans-serif;
 $ORANGE: #D09949;
 $GREY: #6c6f67;
@@ -55,7 +57,7 @@ nav, article {
   margin: 0 auto;
 }
 
-article {
+article, p, li {
   color: $BRIGHT_GREY;
   font-family: "Open Sans", sans-serif;
   font-size: 10.5pt;
@@ -199,22 +201,63 @@ main {
     padding-top: 0.5em;
   }
 }
-  .production {
-    display: grid;
-    grid-template-columns: auto auto;
+
+.production {
+  width: 50vw;
+  margin: 0 auto;
+
+  > *:not(p):not(ul):not(h1):not(video) {
+    margin: 85px auto;
   }
 
-.slide {
-  width: 80vw;
-  max-width: 800px;
-  font-family: $FONT;
-  margin: $SPACE_FORMULA auto $SPACE_FORMULA_BOTTOM;
-
-  a {
-    text-decoration: none;
+  video {
+    width: 85vw;
+    margin-left: (15vw - 50vw)/2;
   }
 
-  h1, h2 {
+  nav {
+    text-align: center;
+    a {
+      @include list-space(2em, right);
+
+      &:hover {
+        color: $ORANGE;
+      }
+    }
+  }
+
+  h1 {
+    margin-top: 130px;
+  }
+
+  p, li {
+    margin-top: 30px;
+    letter-spacing: 1pt;
+    font-size: 12pt;
+    line-height: 24pt;
+    text-align: justify;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-top: 0.5em;
+    }
+  }
+
+  #poster {
+    text-align: center;
+
+    img {
+      max-width: 85%;
+    }
+  }
+}
+
+.slide, .production {
+  h1, h2, nav a {
     font-family: $FONT;
     text-align: center;
     text-transform: uppercase;
@@ -223,12 +266,32 @@ main {
   }
 
   h1 {
-    font-size: $FILM_TITLE_FONT_HEIGHT;
+    font-size: 30pt;
     margin-bottom: 0;
 
     @media screen and (max-width: 800px) {
       font-size: calc(1.8vw + 10pt);
     }
+  }
+
+  h2:first-of-type, nav a {
+    font-size: $FILM_SUBTITLE_FONT_HEIGHT;
+    margin-top: 0.5em;
+
+    @media screen and (max-width: 800px) {
+      font-size: calc(1vw + 5pt);
+    }
+  }
+}
+
+.slide {
+  width: 80vw;
+  max-width: 800px;
+  font-family: $FONT;
+  margin: $SPACE_FORMULA auto $SPACE_FORMULA_BOTTOM;
+
+  h1 {
+    font-size: $FILM_TITLE_FONT_HEIGHT;
 
     &::after {
       content: '';
@@ -239,13 +302,8 @@ main {
     }
   }
 
-  h2 {
-    font-size: $FILM_SUBTITLE_FONT_HEIGHT;
-    margin-top: 0.5em;
-
-    @media screen and (max-width: 800px) {
-      font-size: calc(1vw + 5pt);
-    }
+  a {
+    text-decoration: none;
   }
 
   video {
@@ -257,22 +315,6 @@ main {
 
 $POSTER_WIDTH: 40vw;
 $POSTER_PAD: 5vh;
-
-#poster {
-  max-height: calc(90vh - 2 * #{$HEADER_FOOTER_HEIGHT});
-  max-width: 40vw;
-  margin-top: $POSTER_PAD;
-  margin-left: $POSTER_PAD;
-}
-
-#description {
-  margin: 0 4vw 0 8vw;
-  padding-top: 3vh;
-  letter-spacing: 1pt;
-  font-size: 10pt;
-  line-height: 14pt;
-  text-align: justify;
-}
 
 .slides.horizontal {
   position: fixed;

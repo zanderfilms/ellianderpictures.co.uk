@@ -14,7 +14,8 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 
 ## Trailer
 
-<video src="./cosmos-teaser.mp4" controls></video>
+{% assign trailer_filename = 'cosmos-teaser.mp4' %}
+<video src="{{ trailer_filename | prepend: '/uploads' | relative_url }}" controls></video>
 
 ## Credits
 
@@ -25,7 +26,7 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 <br>Elliander Pictures
 
 **Cast:**
-<br>Tom England 
+<br>Tom England
 <br>Joshua Ford
 <br>Arjun Singh Panam
 <br>Ben Vardy
