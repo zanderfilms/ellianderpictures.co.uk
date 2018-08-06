@@ -1,12 +1,36 @@
 ---
 name: Cosmos
 kind: Feature Film
-year: 2017
+year: 2018
 video_url: x.mp4
 poster: cosmos.jpg
 ---
-Elliander Pictures is a UK based Film & TV production company, our work ranges from Independent Motion Pictures through to Music Videos and Online/TV Commercials. Achieving impact and excellence is paramount and we pride ourselves in our high standard of work. In pursuit of promoting technical and creative excellence, we work alongside accomplished industry professionals, drawing on their experience as writers, directors and skilled technicians.
 
-We both work as freelance camera operators and editors and have worked with a variety of prestigous brands and companies. This site is dedicated to the work we've been directly involved in as producers or directors. For more information on the work we do for other people, please visit the news page.
+## Synopsis
 
-Whether you're a band in need of a music video, a budding star in need of a Show-reel or a business in need of promotion, Elliander Pictures is here to help. Please check out the rest of our site and get in contact if you have any queries, suggestions or requests. This is a test.
+COSMOS is a contemporary sci-fi mystery following three amateur astronomers who accidentally intercept what they believe is a signal from an alien civilisation. Realising they may have just stumbled across Mankind's greatest discovery, they must race to document their finding, prove its authenticity and share it with the world before it is lost forever. But the truth they uncover is even more incredible than any of them could have imagined.
+
+Inspired by Amblin-era adventure, set over one night and against the backdrop of a World changing discovery, COSMOS offers spectacle and thrills but reminds us success is nothing without people to share it with.
+
+## Trailer
+
+<video src="./cosmos-teaser.mp4" controls></video>
+
+## Credits
+
+**Written, Directed & Produced by:**
+<br>Elliot Weaver & Zander Weaver
+
+**Produced by:**
+<br>Elliander Pictures
+
+**Cast:**
+<br>Tom England 
+<br>Joshua Ford
+<br>Arjun Singh Panam
+<br>Ben Vardy
+
+**Music by:**
+<br>Chris Davey
+
+**SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
