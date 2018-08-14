@@ -2,20 +2,27 @@
 layout: default
 ---
 <div class="production" vocab="http://schema.org/" typeof="Movie">
-  <h1 property="name">{{ page.title }}</h1>
-  <h2>{{ page.kind }}, <span property="datePublished">{{ page.year }}</span></h2>
-  <nav>
-    {% assign headings = page.content | split: '<h2 id="' %}
-    {% for heading in headings %}
-      {% assign parts = heading | split: "</h2>" | first %}
-      {% assign parts = parts | split: '">' %}
-      {% assign slug = parts | first %}
-      {% assign text = parts | last %}
-      <a href="#{{ slug }}">{{ text }}</a>
-    {% endfor %}
-  </nav>
-  <div id="poster">
-    <img property="image" src="./{{ page.poster }}">
+  <div class="top">
+    <div id="details">
+      <h1 property="name">{{ page.title }}</h1>
+      <h2>{{ page.kind }}, <span property="datePublished">{{ page.year }}</span></h2>
+      <meta property="director" value="Elliot Weaver"/>
+      <meta property="director" value="Zander Weaver"/>
+      <nav>
+        {% assign headings = page.content | split: '<h2 id="' %}
+        {% for heading in headings %}
+          {% assign parts = heading | split: "</h2>" | first %}
+          {% assign parts = parts | split: '">' %}
+          {% assign slug = parts | first %}
+          {% assign text = parts | last %}
+          <a href="#{{ slug }}">{{ text }}</a>
+        {% endfor %}
+      </nav>
+      <p>{{ page.excerpt }}</p>
+    </div>
+    <div id="poster">
+      <img property="image" src="{{ page.poster | prepend: 'uploads/' | relative_url }}">
+    </div>
   </div>
   {{ page.content }}
 </div>
