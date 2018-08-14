@@ -1,0 +1,25 @@
+---
+label: Production
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  name: excerpt
+  label: Excerpt
+  description: Short text to appear on the banner at the top of the content page. No more than 100 words.
+- type: number
+  name: year
+  label: Year of release
+- type: text
+  name: kind
+  label: Kind
+  description: The kind of thing that this is, e.g. Feature Film, Short Film
+- type: file
+  name: video_url
+  description: Short video clip to loop in the slide list. It should not start on
+    black otherwise iOS users will just get a blank screen.
+  label: Homepage video clip
+- type: file
+  name: poster
+  label: Poster
+  description: The poster to use on the content page.
