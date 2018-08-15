@@ -46,6 +46,11 @@ defaults:
       type: films
     values:
       layout: production
+  - scope:
+      path: ""
+      type: documentaries
+    values:
+      layout: production
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
