@@ -23,3 +23,19 @@ fields:
   name: poster
   label: Poster
   description: The poster to use on the content page.
+- type: field_group_list
+  name: trailers
+  label: Trailers
+  description: |
+    Videos you want to include on the content page.
+    You can specify where on the content page they appear using the 'Trailer' snippet
+    and filling in the name you pick here.
+  fields:
+  - type: text
+    name: name
+    label: Name
+    description: A descriptive name to help identify the trailer.
+  - type: file
+    name: file
+    label: Video file
+    description: The video file to display.
