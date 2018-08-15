@@ -1,1 +1,5 @@
-<video src="{{ trailer_filename | prepend: 'uploads/' | relative_url }}" controls></video>
+{%- for video in page.trailers -%}
+  {%- if video.name == include.called -%}
+    <video src="{{ video.file | prepend: 'uploads/' | relative_url }}" controls></video>
+  {%- endif -%}
+{%- endfor -%}
