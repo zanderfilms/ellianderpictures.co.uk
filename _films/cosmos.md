@@ -10,7 +10,6 @@ excerpt: Three astronomers accidentally intercept what they believe to be a sign
 trailers:
 - name: Teaser
   file: cosmos-teaser.mp4
-published: false
 
 ---
 ## Synopsis
@@ -45,6 +44,7 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 **SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
 
 ## Follow
+
 <a href="https://www.instagram.com/cosmos_movie/"><img src="/uploads/ig_btn.png" style="width:50px;height:50px;"></a>
 <a href="https://www.facebook.com/ReelDealFilmSchool/"><img src="/uploads/facebook_btn.png" style="width:50px;height:50px;"></a>
 <a href="https://twitter.com/cosmosmovie"><img src="/uploads/twitter_btn.png" style="width:50px;height:50px;"></a>
