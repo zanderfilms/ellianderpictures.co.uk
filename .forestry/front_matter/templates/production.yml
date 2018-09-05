@@ -6,7 +6,8 @@ fields:
 - type: textarea
   name: excerpt
   label: Excerpt
-  description: Short text to appear on the banner at the top of the content page. No more than 100 words.
+  description: Short text to appear on the banner at the top of the content page.
+    No more than 100 words.
 - type: number
   name: year
   label: Year of release
