@@ -30,6 +30,7 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 
 > Follow our behind the scenes <a href="https://www.instagram.com/cosmos_movie/">Instagram</a> and read below to discover how we made this movie with **_no money_**.
 
+
 # why make cosmos?
 
 Cosmos came into existence because we wanted to take back control over our filmmaking career. All filmmakers need to make their first feature and we’d spent between 2010 and 2013 in development on a 120 minute sci-fi-thriller called **_Encounter_**. We’d written the script, attached a list of industry talent and developed an investment strategy with a corporate finance company.
