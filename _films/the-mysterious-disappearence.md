@@ -4,8 +4,11 @@ kind: Short Film
 year: 2014
 video_url: box miniclip 2.mp4
 poster: bayliss_poster.jpg
----
+excerpt: A young man is woken one night by a set of haunted keys that float before
+  him. Guided through his empty house by the possessed keys, he discovers a dark room
+  hiding an even darker secret.
 
+---
 ## Synopsis
 
 The Mysterious Disappearance of M.M.Bayliss is an homage to classic Victorian ghost stories and the weird tales of the Twilight Zone serials.
