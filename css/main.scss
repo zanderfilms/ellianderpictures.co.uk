@@ -64,7 +64,7 @@ article, p, li {
 
   img {
     margin: 1em;
-    width: calc(100% - 2em);
+    max-width: calc(100% - 2em);
   }
 
   a {
