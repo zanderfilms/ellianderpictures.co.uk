@@ -8,6 +8,7 @@ excerpt: Three astronomers accidentally intercept what they believe to be a sign
   from a distant alien civilisation, but the truth is even more incredible than any
   of them could have imagined.
 trailers:
+- name: Main Trailer
 - name: Teaser
   file: cosmos-teaser.mp4
 
@@ -29,7 +30,6 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 ## Making Of
 
 > Follow our behind the scenes <a href="https://www.instagram.com/cosmos_movie/">Instagram</a> and read below to discover how we made this movie with **_no money_**.
-
 
 # why make cosmos?
 
