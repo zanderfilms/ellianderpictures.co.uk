@@ -28,7 +28,7 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 
 ## Making Of
 
-> Follow our behind the scenes <a href="https://www.instagram.com/cosmos_movie/">Instagram</a> and watch the video below to discover how we made this movie with no financial support.
+> Follow our behind the scenes <a href="https://www.instagram.com/cosmos_movie/">Instagram</a> and <a href="https://www.facebook.com/ReelDealFilmSchool/">Facebook</a> and watch the video below to discover how we made this movie with a handful of people, no financial support and a lot of hard work.
 
 <center><iframe src="https://player.vimeo.com/video/296035264?title=0&byline=0&portrait=0" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
 
