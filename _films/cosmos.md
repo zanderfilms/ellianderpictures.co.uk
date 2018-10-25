@@ -8,7 +8,6 @@ excerpt: Three astronomers accidentally intercept what they believe to be a sign
   from a distant alien civilisation, but the truth is even more incredible than any
   of them could have imagined.
 trailers:
-- {}
 - name: Teaser
   file: cosmos-teaser.mp4
 
