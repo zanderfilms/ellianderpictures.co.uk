@@ -11,7 +11,7 @@ excerpt: A young man is woken one night by a set of haunted keys that float befo
 ---
 ## WATCH
 
-<center><iframe src="https://player.vimeo.com/video/79709204?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><iframe src="https://player.vimeo.com/video/79709204?title=0&byline=0&portrait=0" width="950" height="534" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></iframe></center>
 
 ## Why Film?
 
