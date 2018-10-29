@@ -249,8 +249,9 @@ main {
     margin: 85px auto;
   }
 
-  video {
+  video, iframe {
     width: 99vw;
+    height: calc(100vh - 7.5em);
     margin-left: -25vw;
 
     @media screen and (max-width: $MOBILE) {
