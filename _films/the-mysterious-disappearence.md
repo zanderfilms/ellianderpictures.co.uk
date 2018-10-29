@@ -21,19 +21,19 @@ excerpt: A young man is woken one night by a set of haunted keys that float befo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BcIIFwXyfME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
-It’s probably clear from the credits listed that this project was undertaken by a small number of people; five in total.
+> It all started with two rolls of 16mm FujiFilm Eterna 8673 500T, sitting in our fridge, bought with the intention of shooting some film camera tests.
 
-It all started with two rolls of 16mm FujiFilm Eterna 8673 500T, sitting in our fridge, bought with the intention of shooting some film camera tests. But not content with “wasting” the film on lighting tests, given the ever increasing scarcity of the format, we decided to come up with a short, entertaining story that fit the criteria – we had 2x 400ft loadings of 16mm, which equates to roughly 22mins _(24fps), so it was clear that we would have to keep things relatively simple.
+But not content with “wasting” the film on lighting tests, given the ever increasing scarcity of the format, we decided to come up with a short, entertaining story that fit the criteria – we had 2x 400ft loadings of 16mm, which equates to roughly 22mins _(24fps), so it was clear that we would have to keep things relatively simple.
 
 We immediately wrote off the idea of any dialogue or sound recording, partly as it opened the door to potential retakes due to dialogue fumbles but mainly because the Arri 16SR we were going to shoot on wasn’t particularly quiet!
 
 We used what was available to us and decided to create a Twilight Zone-esque short story that would hopefully have some charm to it. We did a quick storyboard and calculated that we could just about squeeze a 9.5min short out of the two rolls _(with enough room for retakes and rolling on/checking the gate after each shot)_.
 
-The whole experience was one that we will never forget and hopefully repeat in the future. The small five person crew worked quickly and efficiently; knowing that there was “more at stake” when the camera rolled pushed all our standards to a new level.
+> The whole experience was one that we will never forget and hopefully repeat in the future. The small five person crew worked quickly and efficiently; knowing that there was “more at stake” when the camera rolled pushed all our standards to a new level.
 
 Battling stubborn keys on string that just wouldn’t stay where we wanted them _(yes… very old school)_, a box that wasn’t really big enough for our actor to get inside and a homemade double-wicked candle that seemed to have a vendetta against him _(hot wax!)_, we pushed to get everything we needed on the minimal amount of film stock we had available – A 2:1 shooting ratio is something we were very proud of, and still are, in fact we over shot slightly and ended up leaving two shots on the cutting room floor!
 
-From start to finish, the project was thoroughly enjoyable. It pushed our understanding and standards, and challenged us to try just that bit harder to hopefully make the final film that bit better.
+> From start to finish, the project was thoroughly enjoyable. It pushed our understanding and standards, and challenged us to try just that bit harder to hopefully make the final film that bit better.
 
 <br>
 
