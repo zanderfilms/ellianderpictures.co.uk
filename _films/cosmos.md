@@ -14,7 +14,7 @@ trailers:
 ---
 ## Trailer
 
-{% include trailer.html called='Teaser' %}
+<iframe src="https://player.vimeo.com/video/288262320" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
