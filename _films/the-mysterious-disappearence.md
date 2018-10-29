@@ -69,6 +69,6 @@ Film still has a place, it may not be as economical as digital and it may be har
 
 **Directed & Produced by:** <br>Elliot Weaver & Zander Weaver
 
-**Starring:** <br>Marc Baylis
+**Starring:** <br>Marc Maclaren Baylis
 
 **SHOT ON FUJI MOTION PICTURE 16MM FILM**<br> Development by Technicolor UK
