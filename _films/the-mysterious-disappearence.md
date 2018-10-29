@@ -15,7 +15,11 @@ excerpt: A young man is woken one night by a set of haunted keys that float befo
 
 ## Making Of
 
-<br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/BcIIFwXyfME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+<br>
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BcIIFwXyfME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 It’s probably clear from the credits listed that this project was undertaken by a small number of people; five in total.
 
