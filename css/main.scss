@@ -10,6 +10,7 @@ $FONT: "Poppins", "Apple LiGothic", sans-serif;
 $ORANGE: #D09949;
 $GREY: #6c6f67;
 $BRIGHT_GREY: #a3a89c;
+$CAPS_LETTER_SPACING: 4pt;
 $BAR_BORDERS: 1px solid $GREY;
 $BAR_BOTTOM_SPACE: 13px;
 $MOBILE: 650px;
@@ -312,7 +313,7 @@ h1, h2, nav a {
   font-family: $FONT;
   text-transform: uppercase;
   font-weight: 200;
-  letter-spacing: 4pt;
+  letter-spacing: $CAPS_LETTER_SPACING;
 }
 
 .slide, #details {
@@ -333,6 +334,27 @@ h1, h2, nav a {
 
     @media screen and (max-width: 800px) {
       font-size: calc(1vw + 5pt);
+    }
+  }
+
+  nav a {
+    text-decoration: none;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      background: $GREY;
+      left: 0;
+      right: $CAPS_LETTER_SPACING;
+      bottom: -1px;
+      height: 0.5px;
+    }
+
+    &:hover {
+      &:after {
+        background: $ORANGE;
+      }
     }
   }
 }
