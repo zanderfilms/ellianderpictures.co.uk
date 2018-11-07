@@ -21,7 +21,7 @@ layout: default
       <p>{{ page.excerpt }}</p>
     </div>
     <div id="poster">
-      <img property="image" src="{{ page.poster | prepend: 'uploads/' | relative_url }}">
+      <img property="image" src="{{ page.poster | relative_url }}">
     </div>
   </div>
   {{ page.content }}
