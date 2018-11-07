@@ -3,7 +3,7 @@ title: Cosmos
 kind: Feature Film
 year: 2018
 video_url: x.mp4
-poster: cosmos.jpg
+poster: "/uploads/cosmos.jpg"
 excerpt: Three astronomers accidentally intercept what they believe to be a signal
   from a distant alien civilisation, but the truth is even more incredible than any
   of them could have imagined.
