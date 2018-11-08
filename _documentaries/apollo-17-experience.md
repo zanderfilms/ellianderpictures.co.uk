@@ -5,6 +5,7 @@ year: 2015
 video_url: A17 miniclip5.mp4
 excerpt: Experience the Moon through the eyes of the men who took one giant leap for
   Mankind.
+poster: "/uploads/a17hd_poster.jpg"
 
 ---
 ## Trailer
