@@ -8,14 +8,6 @@ excerpt: Surrounded by the realities of war, one British soldier searches for hi
 poster: "/uploads/tpof_poster.jpg"
 
 ---
-## Trailer
-
-<iframe src="https://player.vimeo.com/video/11578609?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-## Watch
-
-<iframe src="https://player.vimeo.com/video/14475874?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Synopsis
 
 Using the emotive works of _Wilfred Owen_, _Siegfried Sassoon_, _A.A. Milne_, _Wilfred Gibson_, _Rupert Brooke_ and _John McCrae_, **_The Price of Freedom_** tells a story seen through the eyes of just one British soldier, but told from the hearts of every man who fought when the world first went to war.
@@ -23,6 +15,14 @@ Using the emotive works of _Wilfred Owen_, _Siegfried Sassoon_, _A.A. Milne_, _
 The Great War Poets painted a vivid picture of the inner war that every soldier fights within himself. A war in which man discovers the true cost of sacrifice, a true loss of faith and the true fragility of life.
 
 Locked within their poetry is that truth; A soldier's realisation that no-one would ever understand what was asked of him and an experience of fear as he had never before known.
+
+## Trailer
+
+<iframe src="https://player.vimeo.com/video/11578609?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Watch
+
+<iframe src="https://player.vimeo.com/video/14475874?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Making Of
 
