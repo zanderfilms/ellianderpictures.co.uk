@@ -19,7 +19,7 @@ With the accolade of flying 24 men to the Moon, the Saturn V will always be cons
 
 ## Trailer
 
-<iframe src="[https://player.vimeo.com/video/102022603?title=0&byline=0&portrait=0](https://player.vimeo.com/video/102022603?title=0&byline=0&portrait=0 "https://player.vimeo.com/video/102022603?title=0&byline=0&portrait=0")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/102022603?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Credits
 
