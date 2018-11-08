@@ -32,9 +32,15 @@ To read a more detailed "making of" article, please follow the link below:
 
 ## Credits
 
-**Directed & Produced by:** <br>Elliot Weaver & Zander Weaver  
-**Written by:** <br>Zander Weaver  
-**Starring:** <br>Marc Maclaren Baylis  
+**Directed & Produced by:** <br>Elliot Weaver & Zander Weaver
+
+  
+**Written by:** <br>Zander Weaver
+
+  
+**Starring:** <br>Marc Maclaren Baylis
+
+  
 **Music by:** <br>Keith Kenniff – Unseen-Music
 
 **SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
