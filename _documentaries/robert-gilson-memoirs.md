@@ -5,11 +5,12 @@ year: 2016
 video_url: Gilsonv2.mp4
 excerpt: "Through letters written to his fiance, explore the life of a 22 year old
   British officer who fought on the disastrous first day of the Somme in 1916.\n\n"
+poster: "/uploads/gilson_poster.jpg"
 
 ---
 ## Watch
 
-<iframe src="https://vimeo.com/165465760" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/165465760?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
