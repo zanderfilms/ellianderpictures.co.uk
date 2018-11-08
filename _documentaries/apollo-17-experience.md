@@ -4,7 +4,8 @@ kind: 2 x 52min Documentary
 year: 2015
 video_url: A17 miniclip5.mp4
 excerpt: Experience the Moon through the eyes of the men who took one giant leap for
-  Mankind.
+  Mankind and watch as NASA's crowning glory of the Apollo program brings to a close
+  the defining age of space exploration.
 poster: "/uploads/a17hd_poster.jpg"
 
 ---
