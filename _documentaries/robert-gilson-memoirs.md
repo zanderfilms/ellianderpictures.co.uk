@@ -28,6 +28,6 @@ As an eloquent and sensitive observer of life, the words of 22 year old Robert Q
 
 **Interviews:** <br>John Garth<br>Paul Golightly
 
-**Special Thanks:** <br>The Tolkien Estate<br>Julia Margarets<br>Susan Wood<br>Imperial War Museum<br>Alison Wheatley
+**Special Thanks:** <br>The Tolkien Estate<br>Julia Margretts<br>Susan Wood<br>Imperial War Museum<br>Alison Wheatley
 
 **SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
