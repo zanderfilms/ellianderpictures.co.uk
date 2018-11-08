@@ -8,7 +8,7 @@ excerpt: In the midst of fighting, a soldier contemplates the aftermath of battl
   things that wear away at morale.
 
 ---
-## Trailer
+## Watch
 
 <iframe src="https://www.vimeo.com/135750782" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -18,7 +18,7 @@ In the midst of fighting in the pacific, a US Second World War soldier contempla
 
 ## Making Of
 
-The poem featured in **_Assault on the Senses_** was written by Zander back in 2012, having been inspired by the cinematic music of Keith Kenniff and in particular the track **_Threnody._** The plan to set the poem to music and shoot a short film to match was loosely inspired by our first short; **_The Price of Freedom,_** which we started making back in 2004. And we wondered how differently we’d tackle a similar project after almost 10 years. 
+The poem featured in **_Assault on the Senses_** was written by Zander back in 2012, having been inspired by the cinematic music of Keith Kenniff and in particular the track **_Threnody._** The plan to set the poem to music and shoot a short film to match was loosely inspired by our first short; **_The Price of Freedom,_** which we started making back in 2004. And we wondered how differently we’d tackle a similar project after almost 10 years.
 
 > We enlisted the talent and professionalism (and patience!) of our trusty actor/best friend Marc Baylis in yet another short film. Having starred in **_The Price of Freedom_**, **_Encounter_** (short) and **_The Mysterious Disappearance of M.M.Bayliss_**, this would be our fourth film together. Every project has a tale or two to tell and this time was no exception.
 
@@ -31,9 +31,9 @@ To read a more detailed "making of" article, please follow the link below:
 
 ## Credits
 
-**Directed & Produced by:** <br>Elliot Weaver & Zander Weaver   
+**Directed & Produced by:** <br>Elliot Weaver & Zander Weaver  
 **Written by:** <br>Zander Weaver  
 **Starring:** <br>Marc Maclaren Baylis  
-**Music by:** <br>Keith Kenniff – Unseen-Music  
-  
+**Music by:** <br>Keith Kenniff – Unseen-Music
+
 **SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
