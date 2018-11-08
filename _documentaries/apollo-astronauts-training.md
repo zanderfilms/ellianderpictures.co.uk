@@ -5,11 +5,12 @@ year: 2014
 video_url: astrov2.mp4
 excerpt: How NASA trained America's best pilots to fly to the Moon and take one giant
   leap for mankind
+poster: "/uploads/astro_poster.jpg"
 
 ---
 ## Trailer
 
-<iframe src="[https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0](https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0 "https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
