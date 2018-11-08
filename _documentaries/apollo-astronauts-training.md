@@ -27,7 +27,7 @@ Featuring stunning NASA footage and expert interviews with Apollo space scientis
 
 **Written and Directed by:** <br>Elliot Weaver & Zander Weaver
 
-**Produced by:** <br>Free Spirit Film & TV Ltd
+**Produced by:** <br>Chris Weaver & Lesley Weaver, Free Spirit Film & TV Ltd
 
 **Edited by:** <br>Chris Weaver
 
