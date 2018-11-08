@@ -4,7 +4,7 @@ kind: 30min Documentary
 year: 2014
 video_url: Tolkienv2.mp4
 excerpt: Explore the wartime experiences of JRR Tolkien and how they shaped his life's
-  work
+  work.
 poster: "/uploads/tolkien_poster.jpg"
 
 ---
