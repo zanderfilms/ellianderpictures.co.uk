@@ -8,10 +8,6 @@ excerpt: "Through letters written to his fiancée, explore the life of a 22 year
 poster: "/uploads/gilson_poster.jpg"
 
 ---
-## Watch
-
-<iframe src="https://player.vimeo.com/video/165465760?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Synopsis
 
 The second of three documentary films commissioned by King Edward's School, Birmingham as part of their 1914-1918 commemorations.
@@ -21,6 +17,10 @@ Over 1,400 former pupils of King Edward’s School served in the First World War
 This film explores the disastrous first day of the Somme campaign through the beautifully written letters of one infantry officer, Robert Quilter Gilson, son of the school's Headmaster and closest friend of J.R.R. Tolkien, who also fought in the war.
 
 As an eloquent and sensitive observer of life, the words of 22 year old Robert Quilter Gilson preserve one very personal account among the vast and unfathomable story of the First World War - tragically, he was an eyewitness to history who simply never came back home.
+
+## Watch
+
+<iframe src="https://player.vimeo.com/video/165465760?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Credits
 
