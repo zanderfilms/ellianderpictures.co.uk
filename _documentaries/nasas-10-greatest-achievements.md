@@ -18,10 +18,6 @@ Using stunning NASA archive footage and featuring expert interviews with space s
 
 Nowhere is our potential for greatness more clearly demonstrated than in our constant quest to explore the cosmos, and this mini-series highlights the finest moments in a fifty-year quest.
 
-## Trailer
-
-<iframe src="[https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0](https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0 "https://player.vimeo.com/video/106579874?title=0&byline=0&portrait=0")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Credits
 
 **Written and Directed by:** <br>Elliot Weaver & Zander Weaver
