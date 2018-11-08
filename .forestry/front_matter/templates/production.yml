@@ -40,3 +40,5 @@ fields:
     name: file
     label: Video file
     description: The video file to display.
+pages:
+- _documentaries/july-1st-1916-why-the-plan-failed.md
