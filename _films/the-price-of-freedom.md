@@ -5,6 +5,7 @@ year: 2010
 video_url: tpof miniclip.mp4
 excerpt: Surrounded by the realities of war, one British soldier searches for his
   own moral answers - told through the poetry of the First World War.
+poster: "/uploads/tpof_poster.jpg"
 
 ---
 ## Watch
