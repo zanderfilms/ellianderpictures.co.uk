@@ -8,8 +8,6 @@ excerpt: Experience the Moon through the eyes of the men who took one giant leap
 poster: "/uploads/a17hd_poster.jpg"
 
 ---
-## Trailer
-
 ## Synopsis
 
 Between 1968 and 1972, NASA successfully sent 24 men where no human beings had been before or since. The final mission, Apollo 17, flew in December 1972 and closed the final chapter in NASA’s triumphant Apollo Program.
@@ -21,6 +19,8 @@ Using spectacular NASA high-definition archive footage, mission audio and rare a
 > Uninterrupted by narration or expert interviews, this documentary immerses the audience inside the action as it happened on the day, over 40 years ago.
 
 The Apollo 17 Experience is an emotive, informative and inspirational tribute to the spirit of human exploration and mankind’s final steps on the Moon.
+
+## Trailer
 
 ## Credits
 
