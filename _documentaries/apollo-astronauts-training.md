@@ -3,8 +3,8 @@ title: 'Apollo Astronauts: Training NASA''s Moon Men'
 kind: 52min Documentary
 year: 2014
 video_url: astrov2.mp4
-excerpt: How NASA trained America's best pilots to fly to the Moon and take one giant
-  leap for mankind.
+excerpt: Discover the remarkable story of how NASA trained America's best pilots to
+  fly to the Moon and take one giant leap for mankind.
 poster: "/uploads/astro_poster.jpg"
 
 ---
