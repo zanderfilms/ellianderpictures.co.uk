@@ -9,13 +9,13 @@ excerpt: In the midst of fighting, a soldier contemplates the aftermath of battl
 poster: "/uploads/aots_poster.jpg"
 
 ---
-## Watch
-
-<iframe src="https://player.vimeo.com/video/135750782?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Synopsis
 
 In the midst of fighting in the pacific, a US Second World War soldier contemplates the aftermath of battle. Where once there was respite from the chaos of war, now there are a million small things that wear away at morale; the ringing in his ears, the crackling of his mess tin on the fire and the relentless rain that pats on his tin helmet. Assault on the Senses explores the mental war that follows a battle.
+
+## Watch
+
+<iframe src="https://player.vimeo.com/video/135750782?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Making Of
 
