@@ -28,7 +28,7 @@ The Apollo 17 Experience is an emotive, informative and inspirational tribute to
 
 **Written and Directed by:** <br>Elliot Weaver & Zander Weaver
 
-**Produced by:** <br>Chris Weaver & Lesley Weaver, Free Spirit Film & TV Ltd
+**Produced by:** <br>Free Spirit Film & TV Ltd
 
 **Edited by:** <br>Elliot Weaver
 
