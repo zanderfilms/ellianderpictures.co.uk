@@ -15,7 +15,7 @@ excerpt: Explore the wartime experiences of JRR Tolkien and how they shaped his 
 
 The first of three documentary films commissioned by King Edward's School, Birmingham as part of their 1914-1918 commemorations - over 1,400 former pupils of King Edward’s School served in the First World War and 245 lost their lives.
 
-Tolkien fought on the Western Front as a young officer, as did many of his school friends and this film explores his experiences during the First World War and how it shaped his culturally defining works.
+Tolkien fought on the Western Front as a young officer, as did many of his school friends, and this film explores his experiences during the First World War, and how the nature of war and the scale it's sacrifice went on to shape his culturally defining works. 
 
 ## Credits
 
