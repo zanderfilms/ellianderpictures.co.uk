@@ -4,18 +4,22 @@ kind: 2 x 52min Documentary
 year: 2013
 video_url: a13v4.mp4
 excerpt: The full story of the courage and ingenuity that cemented Apollo 13 as NASA's
-  finest hour
+  finest hour and the remarkable actions of the ground crew and astronauts that averted
+  disaster.
+poster: "/uploads/a13_poster.jpg"
 
 ---
 ## Synopsis
 
-April 13th, 1970, 180,000 miles from Earth, a devastating malfunction leaves Apollo 13 leaking previous oxygen and its crew of three astronauts facing a life and death crisis. If Mission Control cannot find a way to bring Apollo 13 home, the astronauts will be stranded 200,000 miles from Earth in their dying ship. 
+April 13th, 1970, 180,000 miles from Earth, a devastating malfunction leaves Apollo 13 leaking previous oxygen and its crew of three astronauts facing a life and death crisis. If Mission Control cannot find a way to bring Apollo 13 home, the astronauts will be stranded 200,000 miles from Earth in their dying ship.
 
 Now with limited power and supplies on board the spacecraft, the ground teams work around the clocking, engineering creative solutions to overcome carbon dioxide poisoning, dehydration and the freezing temperatures of deep space, to ensure the crew's survival.
 
 Using spectacular NASA footage, exclusive interviews with Apollo space scientists and stunning visual effects; this film explores the thirteen remarkable factors that brought the crew safely home, and the full story of the courage and ingenuity that cemented Apollo 13 as NASA's finest hour.
 
 ## Trailer
+
+<iframe src="https://player.vimeo.com/video/75090822?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Credits
 
