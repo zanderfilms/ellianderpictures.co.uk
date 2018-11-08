@@ -11,7 +11,7 @@ poster: "/uploads/aots_poster.jpg"
 ---
 ## Watch
 
-<iframe src="https://www.vimeo.com/135750782" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/135750782" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
