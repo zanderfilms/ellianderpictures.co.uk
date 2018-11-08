@@ -8,16 +8,20 @@ excerpt: Surrounded by the realities of war, one British soldier searches for hi
 poster: "/uploads/tpof_poster.jpg"
 
 ---
+## Trailer
+
+<iframe src="[https://player.vimeo.com/video/11578609](https://player.vimeo.com/video/11578609 "https://player.vimeo.com/video/11578609")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Watch
 
-<iframe src="https://www.vimeo.com/14475874" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="[https://player.vimeo.com/video/14475874](https://player.vimeo.com/video/14475874 "https://player.vimeo.com/video/14475874")" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
-Using the emotive works of _Wilfred Owen_, _Siegfried Sassoon_, _A.A. Milne_, _Wilfred Gibson_, _Rupert Brooke_ and _John McCrae_, **_The Price of Freedom_** tells a story seen through the eyes of just one British soldier, but told from the hearts of every man who fought when the world first went to war.  
-  
-The Great War Poets painted a vivid picture of the inner war that every soldier fights within himself. A war in which man discovers the true cost of sacrifice, a true loss of faith and the true fragility of life.   
-  
+Using the emotive works of _Wilfred Owen_, _Siegfried Sassoon_, _A.A. Milne_, _Wilfred Gibson_, _Rupert Brooke_ and _John McCrae_, **_The Price of Freedom_** tells a story seen through the eyes of just one British soldier, but told from the hearts of every man who fought when the world first went to war.
+
+The Great War Poets painted a vivid picture of the inner war that every soldier fights within himself. A war in which man discovers the true cost of sacrifice, a true loss of faith and the true fragility of life.
+
 Locked within their poetry is that truth; A soldier's realisation that no-one would ever understand what was asked of him and an experience of fear as he had never before known.
 
 ## Making Of
@@ -34,14 +38,14 @@ These scenes may not look as impressive, but they are just as crucial in the tel
 
 ## Credits
 
-**Written, Directed & Produced by:** <br>Elliot Weaver & Zander Weaver  
-  
-**Cast:** <br>Marc Baylis<br>Jack Jeffries<br>Lauren Morris<br>Stephanie Ellis-Gray<br>Andrew Caddy<br>Seb Heaven<br>Luke Johansen<br>Andrew Ford-Stanton<br>Michael Fletcher  
-  
-**Crew:** <br>Chris Weaver and Lesley Weaver  
-  
-**Music by:** <br>Chris Duncan  
-  
-**Special Thanks:** <br>Richard Sheard & The Birmingham Pals<br>The Staffordshire Regiment Museum<br>The Commonwealth War Graves Commission<br>The Severn Valley Railway<br>Barbara Levy Literary Agency  
-  
+**Written, Directed & Produced by:** <br>Elliot Weaver & Zander Weaver
+
+**Cast:** <br>Marc Baylis<br>Jack Jeffries<br>Lauren Morris<br>Stephanie Ellis-Gray<br>Andrew Caddy<br>Seb Heaven<br>Luke Johansen<br>Andrew Ford-Stanton<br>Michael Fletcher
+
+**Crew:** <br>Chris Weaver and Lesley Weaver
+
+**Music by:** <br>Chris Duncan
+
+**Special Thanks:** <br>Richard Sheard & The Birmingham Pals<br>The Staffordshire Regiment Museum<br>The Commonwealth War Graves Commission<br>The Severn Valley Railway<br>Barbara Levy Literary Agency
+
 **SHOT ON SONY DIGIBETA & Z1**
