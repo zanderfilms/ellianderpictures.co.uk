@@ -33,4 +33,4 @@ Featuring stunning NASA footage and expert interviews with Apollo space scientis
 
 **Interviews:** <br>Dr. David Baker<br>Dr. Katherine Joy<br>Tim Stevenson<br>David  Shayler<br>Anu Ojha
 
-**All visual and audio material courtesy of NASA**
+**All visual and audio material courtesy of NASA / JSC / JPL**
