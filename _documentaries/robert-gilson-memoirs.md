@@ -4,7 +4,8 @@ kind: 38min Documentary
 year: 2016
 video_url: Gilsonv2.mp4
 excerpt: "Through letters written to his fiancée, explore the life of a 22 year old
-  British officer who fought on the disastrous first day of the Somme in 1916.\n\n"
+  British officer who fought on the disastrous first day of the Battle of the Somme
+  in July 1916.\n\n"
 poster: "/uploads/gilson_poster.jpg"
 
 ---
