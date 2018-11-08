@@ -11,7 +11,7 @@ poster: "/uploads/aots_poster.jpg"
 ---
 ## Watch
 
-<iframe src="https://player.vimeo.com/video/135750782" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/135750782?color=da8f2e&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Synopsis
 
@@ -34,13 +34,10 @@ To read a more detailed "making of" article, please follow the link below:
 
 **Directed & Produced by:** <br>Elliot Weaver & Zander Weaver
 
-  
 **Written by:** <br>Zander Weaver
 
-  
 **Starring:** <br>Marc Maclaren Baylis
 
-  
 **Music by:** <br>Keith Kenniff – Unseen-Music
 
 **SHOT ON BLACKMAGIC POCKET CINEMA CAMERA**
