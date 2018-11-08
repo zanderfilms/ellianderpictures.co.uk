@@ -6,6 +6,7 @@ video_url: aots miniclip.mp4
 excerpt: In the midst of fighting, a soldier contemplates the aftermath of battle.
   Where once there was respite from the chaos of war, now there are a million small
   things that wear away at morale.
+poster: "/uploads/aots_poster.jpg"
 
 ---
 ## Watch
