@@ -3,7 +3,8 @@ title: The Saturn V Story
 kind: 52min Documentary
 year: 2014
 video_url: satv miniclip.mp4
-excerpt: The incredible story of the mighty rocket that took Man to the Moon.
+excerpt: This is the story of the most powerful machine ever built, and the men and
+  women who believed it could fly.
 poster: "/uploads/satv_poster.jpg"
 
 ---
