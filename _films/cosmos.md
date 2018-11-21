@@ -74,6 +74,10 @@ We wanted this film to be transparent, we wanted to strip away the usual support
 
 > We wanted to show what we could do with nothing.
 
+## Follow
+
+Follow along with the complete production and distribution process on COSMOS through our <a href="https://www.facebook.com/ReelDealFilmSchool/">Facebook</a>, <a href="https://www.twitter.com/cosmosmovie">Twitter</a> and <a href="https://www.instagram.com/cosmos_movie/">Instagram</a>.
+
 ## Credits
 
 **Written, Directed & Produced by:**
