@@ -4,7 +4,7 @@ layout: just-text
 ---
 # ABOUT
 
-<img src= "./elliot_zander.jpg" alt="Elliot &amp; Zander Weaver" style="max-width: 400px; float: left"/>
+<img src= "./ell_zander_portrait_small.jpg" alt="Elliot &amp; Zander Weaver" style="max-width: 400px; float: left"/>
 
 {% assign elliotBday = '1988-03-16' | date: '%s' %}
 {% assign zanderBday = '1991-01-20' | date: '%s' %}
