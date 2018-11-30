@@ -11,7 +11,7 @@ layout: just-text
 {% assign nowTimestamp = 'now' | date: '%s' %}
 {% assign elliotAge = nowTimestamp | minus: elliotBday | divided_by: 31536000 %}
 {% assign zanderAge = nowTimestamp | minus: zanderBday | divided_by: 31536000 %}
-
+<br/>
 Elliander Pictures is a UK-based production partnership between directing brothers Elliot Weaver ({{ elliotAge }}) and Zander Weaver ({{ zanderAge }}), producing both factual television and narrative dramatic content.
 
 Since 2010 the company has produced over nine hours of factual programming for broadcasters including *Discovery*, *PBS*, *Canal+* and *UKTV* and have just completed production on the self-produced feature film, <a href= "https://ellianderpictures.co.uk/films/cosmos.html">COSMOS</a>.
