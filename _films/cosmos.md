@@ -26,7 +26,7 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 
 **The movie is complete, primed for the festival circuit and currently seeking distribution. Please contact elliot@ellianderpictures.co.uk for more info.**
 
-The *COSMOS one sheet* is available to download <a href="https://www.ellianderpictures.co.uk/cosmos_one_sheet.pdf
+The *COSMOS one sheet* is available to download <a href="http://www.ellianderpictures.co.uk/cosmos_one_sheet.pdf
       ">*HERE*.</a>
 
 ## Making Of
