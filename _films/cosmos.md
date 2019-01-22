@@ -24,7 +24,10 @@ Inspired by Amblin-era adventure, set over one night and against the backdrop of
 
 > _COSMOS is a no-budget feature. Directing brothers, Elliot Weaver & Zander Weaver, self produced the project, taking on all major crew roles throughout production, with the exception of writing the score._
 
-**The movie is complete, primed for the festival circuit and currently seeking distribution. Please contact us for more info.**
+**The movie is complete, primed for the festival circuit and currently seeking distribution. Please contact elliot@ellianderpictures.co.uk for more info.**
+
+The *COSMOS one sheet* is available to download <a href="https://www.ellianderpictures.co.uk/cosmos_one_sheet.pdf
+      ">*HERE*.</a>
 
 ## Making Of
 
