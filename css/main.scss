@@ -86,11 +86,11 @@ footer {
 
   div {
     display: inline-block;
-    @include list-space(2em, right);
+    @include list-space(2em, left, right);
 
     @media screen and (max-width: 650px) {
-      @include list-space(0, right);
-      @include list-space(2em, bottom);
+      @include list-space(0, left, right);
+      @include list-space(2em, top, bottom);
     }
   }
 
@@ -123,7 +123,7 @@ header {
     a {
       display: inline-block;
       text-decoration: none;
-      @include list-space(2em, right);
+      @include list-space(2em, left, right);
 
       &:first-child {
         float: left;
@@ -262,9 +262,13 @@ main {
   }
 
   nav {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
     a {
-      @include list-space(2em, right);
+      margin-left: 2ch;
+      margin-right: 2ch;
 
       &:hover {
         color: $ORANGE;
@@ -325,6 +329,10 @@ h1, h2, nav a {
     @media screen and (max-width: 800px) {
       font-size: calc(1.8vw + 10pt);
     }
+
+    @media screen and (max-width: $MOBILE) {
+      font-size: 10vw;
+    }
   }
 
   h2:first-of-type, nav a {
@@ -335,11 +343,17 @@ h1, h2, nav a {
     @media screen and (max-width: 800px) {
       font-size: calc(1vw + 5pt);
     }
+
+    @media screen and (max-width: $MOBILE) {
+      font-size: 4vw;
+    }
   }
 
   nav a {
+    display: inline-block;
     text-decoration: none;
     position: relative;
+    margin-bottom: 2px;
 
     &:after {
       content: "";
@@ -348,7 +362,7 @@ h1, h2, nav a {
       left: 0;
       right: $CAPS_LETTER_SPACING;
       bottom: -1px;
-      height: 0.5px;
+      height: 1px;
     }
 
     &:hover {

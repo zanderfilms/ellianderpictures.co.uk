@@ -13,8 +13,9 @@ layout: default
         {% for heading in headings %}
           {% assign parts = heading | split: "</h2>" | first %}
           {% assign parts = parts | split: '">' %}
-          {% assign slug = parts | first %}
-          {% assign text = parts | last %}
+          {% assign slug = parts | first | strip %}
+          {% assign text = parts | last | strip %}
+          {% if slug == "" %}{% continue %}{% endif %}
           <a href="#{{ slug }}">{{ text }}</a>
         {% endfor %}
       </nav>
