@@ -19,11 +19,13 @@ layout: default
           <a href="#{{ slug }}">{{ text }}</a>
         {% endfor %}
       </nav>
-      <p>{{ page.excerpt }}</p>
+      <p property="description">{{ page.excerpt }}</p>
     </div>
     <div id="poster">
       <img property="image" src="{{ page.poster | relative_url }}">
     </div>
   </div>
-  {{ page.content }}
+  <article>
+    {{ page.content }}
+  </article>
 </div>
