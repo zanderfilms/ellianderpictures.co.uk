@@ -1,7 +1,12 @@
-@mixin list-space($PARAM, $DIRECTION) {
-  margin-#{$DIRECTION}: $PARAM;
+@mixin list-space($PARAM, $BEFORE_DIRECTION, $AFTER_DIRECTION) {
+  margin-#{$BEFORE_DIRECTION}: $PARAM/2;
+  margin-#{$AFTER_DIRECTION}: $PARAM/2;
+
+  &:first-child {
+    margin-#{$BEFORE_DIRECTION}: 0;
+  }
 
   &:last-child {
-    margin-#{$DIRECTION}: 0;
+    margin-#{$AFTER_DIRECTION}: 0;
   }
 }
