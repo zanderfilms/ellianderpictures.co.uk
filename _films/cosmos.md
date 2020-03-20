@@ -80,6 +80,7 @@ We wanted this film to be transparent, we wanted to strip away the usual support
 ## Follow
 
 Follow along with the complete production and distribution process on COSMOS through our <a href="https://www.facebook.com/ReelDealFilmSchool/">Facebook</a>, <a href="https://www.twitter.com/cosmosmovie">Twitter</a> and <a href="https://www.instagram.com/cosmos_movie/">Instagram</a>.
+Or learn more about the production, read the script, listen to the soundtrack and purchase merchandise on the <a href="https://www.cosmosmovieofficial.com/">Cosmos movie official website</a>
 
 ## Credits
 
